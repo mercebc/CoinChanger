@@ -1,3 +1,7 @@
 class CoinChanger
-  # Your code goes here...
+
+  def exchange
+    []
+  end
+
 end

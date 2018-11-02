@@ -3,7 +3,9 @@ require "CoinChanger"
 
 RSpec.describe CoinChanger do
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  let (:coin) { CoinChanger.new }
+
+  it "no coins return empty array" do
+    expect(coin.exchange).to eq([])
   end
 end
