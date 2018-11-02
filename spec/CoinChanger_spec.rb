@@ -21,5 +21,8 @@ RSpec.describe CoinChanger do
     expect(coin.exchange(300)).to eq([200,100])
   end
 
+  it "400 returns 2*200" do
+    expect(coin.exchange(400)).to eq([200,200])
+  end
 
 end
