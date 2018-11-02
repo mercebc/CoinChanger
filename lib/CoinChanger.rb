@@ -1,5 +1,3 @@
-require "CoinChanger/version"
-
-module CoinChanger
+class CoinChanger
   # Your code goes here...
 end
