@@ -1,9 +1,10 @@
 class CoinChanger
 
   def exchange number
-    coins = [200]
+    coins = [200, 100]
     result = []
-    return result << 200 if number >= coins[0]
+    result << coins[0] and number -= coins[0] if number >= coins[0]
+    result << coins[1] if number >= coins[1]
     result
   end
 
